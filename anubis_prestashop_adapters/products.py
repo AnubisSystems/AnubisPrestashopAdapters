@@ -1,8 +1,8 @@
 import base64
 from io import BytesIO
 import requests
-from anubis_product_core.interfaces import IProductAdapter
-from anubis_product_core.models import CoreProduct
+from anubis_core.features.product.ports import IProductAdapter
+from anubis_core.features.product.models import CoreProduct
 import xml.etree.ElementTree as ET
 
 class PrestaShopProductAdapter(IProductAdapter):
