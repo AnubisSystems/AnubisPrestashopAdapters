@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="anubis_core",
-    version="0.0.2",
+    name="anubis_prestashop_adapters",
+    version="0.0.1",
     author="Jose Manuel Herera Saenz",
     author_email="incubadoradepollos@gmail.com",
-    description="Core for Anubis System",
+    description="Prestashop adapters for anubies product",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/AnubisSystems/AnubisCore",
+    url="https://github.com/AnubisSystems/AnubisPrestashopAdapters",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -21,8 +21,7 @@ setup(
     ]
     python_requires=">=3.13.0",
     install_requires=[
-        "requests",
-        "dependency_injector",
-        "pydantic"
+        "requests"
     ],
 )
+
